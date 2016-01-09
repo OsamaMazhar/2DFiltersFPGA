@@ -1,0 +1,37 @@
+Release 14.7 ngdbuild P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: /home/osama/XILINX/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild
+-intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-1 byte_transfer.ngc
+byte_transfer.ngd
+
+Reading NGO file
+"/home/osama/Documents/FPGA/Osama/TestBench_Real_time_image_processing/byte_tran
+sfer.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 461704 kilobytes
+
+Writing NGD file "byte_transfer.ngd" ...
+Total REAL time to NGDBUILD completion:  13 sec
+Total CPU time to NGDBUILD completion:   11 sec
+
+Writing NGDBUILD log file "byte_transfer.bld"...

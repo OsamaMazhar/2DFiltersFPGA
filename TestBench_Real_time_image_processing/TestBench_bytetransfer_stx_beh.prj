@@ -1,0 +1,4 @@
+vhdl isim_temp "Flip_Flop_4_11.vhd"
+vhdl isim_temp "../Real_time_image_processing/FilterTest_Syn.vhd"
+vhdl isim_temp "byte_transfer_integration.vhd"
+vhdl isim_temp "TB.vhd"

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/osama/Documents/FPGA/Osama/Real_time_image_processing/Imag_Proc_top.ncd
+OUTFILE=/home/osama/Documents/FPGA/Osama/Real_time_image_processing/Imag_Proc_top.bit
+FAMILY=Artix7
+PART=xc7a100t-1csg324
+WORKINGDIR=/home/osama/Documents/FPGA/Osama/Real_time_image_processing
+LICENSE=WebPack
+USER_INFO=__0_0_0

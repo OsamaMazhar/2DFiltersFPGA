@@ -1,0 +1,6 @@
+vhdl work "Flip_Flop_4_11.vhd"
+verilog work "ipcore_dir/bt_fifo.v"
+vhdl work "../Real_time_image_processing/FilterTest_Syn.vhd"
+vhdl work "byte_transfer_integration.vhd"
+vhdl work "TB.vhd"
+verilog work "/home/osama/XILINX/14.7/ISE_DS/ISE//verilog/src/glbl.v"

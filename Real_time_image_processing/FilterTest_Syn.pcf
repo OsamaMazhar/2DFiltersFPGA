@@ -1,0 +1,60 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Dec 15 15:30:53 2015
+//! **************************************************************************
+
+SCHEMATIC START;
+PIN Mmult_GND_4_o_MASK4[3]_MuLt_12_OUT_pins<117> = BEL
+        "Mmult_GND_4_o_MASK4[3]_MuLt_12_OUT" PINNAME CLK;
+PIN Mmult_GND_4_o_MASK2[3]_MuLt_10_OUT_pins<117> = BEL
+        "Mmult_GND_4_o_MASK2[3]_MuLt_10_OUT" PINNAME CLK;
+PIN Mmult_GND_4_o_MASK6[3]_MuLt_14_OUT_pins<117> = BEL
+        "Mmult_GND_4_o_MASK6[3]_MuLt_14_OUT" PINNAME CLK;
+PIN Mmult_GND_4_o_MASK8[3]_MuLt_16_OUT_pins<117> = BEL
+        "Mmult_GND_4_o_MASK8[3]_MuLt_16_OUT" PINNAME CLK;
+PIN Maddsub_GND_4_o_MASK1[3]_MuLt_9_OUT_pins<117> = BEL
+        "Maddsub_GND_4_o_MASK1[3]_MuLt_9_OUT" PINNAME CLK;
+PIN Maddsub_GND_4_o_MASK3[3]_MuLt_11_OUT_pins<117> = BEL
+        "Maddsub_GND_4_o_MASK3[3]_MuLt_11_OUT" PINNAME CLK;
+PIN Maddsub_GND_4_o_MASK5[3]_MuLt_13_OUT_pins<117> = BEL
+        "Maddsub_GND_4_o_MASK5[3]_MuLt_13_OUT" PINNAME CLK;
+PIN Maddsub_GND_4_o_MASK7[3]_MuLt_15_OUT_pins<117> = BEL
+        "Maddsub_GND_4_o_MASK7[3]_MuLt_15_OUT" PINNAME CLK;
+PIN Madd_ADD1[15]_ADD2[15]_add_22_OUT1_pins<117> = BEL
+        "Madd_ADD1[15]_ADD2[15]_add_22_OUT1" PINNAME CLK;
+PIN Madd_ADD3[15]_ADD4[15]_add_23_OUT1_pins<117> = BEL
+        "Madd_ADD3[15]_ADD4[15]_add_23_OUT1" PINNAME CLK;
+TIMEGRP CLK = BEL "ADD7_0" BEL "ADD7_1" BEL "ADD7_2" BEL "ADD7_3" BEL "ADD7_4"
+        BEL "ADD7_5" BEL "ADD7_6" BEL "ADD7_7" BEL "ADD7_8" BEL "ADD7_9" BEL
+        "ADD7_10" BEL "ADD7_11" BEL "ADD7_12" BEL "ADD7_13" BEL "ADD7_14" BEL
+        "ADD7_15" BEL "ADD8_3" BEL "ADD8_4" BEL "ADD8_5" BEL "ADD8_6" BEL
+        "ADD8_7" BEL "ADD8_8" BEL "ADD8_9" BEL "ADD8_10" PIN
+        "Mmult_GND_4_o_MASK4[3]_MuLt_12_OUT_pins<117>" PIN
+        "Mmult_GND_4_o_MASK2[3]_MuLt_10_OUT_pins<117>" PIN
+        "Mmult_GND_4_o_MASK6[3]_MuLt_14_OUT_pins<117>" PIN
+        "Mmult_GND_4_o_MASK8[3]_MuLt_16_OUT_pins<117>" PIN
+        "Maddsub_GND_4_o_MASK1[3]_MuLt_9_OUT_pins<117>" PIN
+        "Maddsub_GND_4_o_MASK3[3]_MuLt_11_OUT_pins<117>" PIN
+        "Maddsub_GND_4_o_MASK5[3]_MuLt_13_OUT_pins<117>" PIN
+        "Maddsub_GND_4_o_MASK7[3]_MuLt_15_OUT_pins<117>" PIN
+        "Madd_ADD1[15]_ADD2[15]_add_22_OUT1_pins<117>" PIN
+        "Madd_ADD3[15]_ADD4[15]_add_23_OUT1_pins<117>" BEL "CLK_BUFGP/BUFG"
+        BEL "Mshreg_Output_2" BEL "Output_2" BEL "Mshreg_Output_0" BEL
+        "Output_0" BEL "Mshreg_Output_1" BEL "Output_1" BEL "Mshreg_Output_3"
+        BEL "Output_3" BEL "Mshreg_Output_4" BEL "Output_4" BEL
+        "Mshreg_Output_7" BEL "Output_7" BEL "Mshreg_Output_5" BEL "Output_5"
+        BEL "Mshreg_Output_6" BEL "Output_6" BEL "Pixel9temp3/Mshreg_temp_11"
+        BEL "Pixel9temp3/temp_11" BEL "Pixel9temp3/Mshreg_temp_10" BEL
+        "Pixel9temp3/temp_10" BEL "Pixel9temp3/Mshreg_temp_7" BEL
+        "Pixel9temp3/temp_7" BEL "Pixel9temp3/Mshreg_temp_9" BEL
+        "Pixel9temp3/temp_9" BEL "Pixel9temp3/Mshreg_temp_8" BEL
+        "Pixel9temp3/temp_8" BEL "Pixel9temp3/Mshreg_temp_6" BEL
+        "Pixel9temp3/temp_6" BEL "Pixel9temp3/Mshreg_temp_5" BEL
+        "Pixel9temp3/temp_5" BEL "Pixel9temp3/Mshreg_temp_2" BEL
+        "Pixel9temp3/temp_2" BEL "Pixel9temp3/Mshreg_temp_4" BEL
+        "Pixel9temp3/temp_4" BEL "Pixel9temp3/Mshreg_temp_3" BEL
+        "Pixel9temp3/temp_3" BEL "Pixel9temp3/Mshreg_temp_1" BEL
+        "Pixel9temp3/temp_1" BEL "Pixel9temp3/Mshreg_temp_0" BEL
+        "Pixel9temp3/temp_0";
+TS_CLK = PERIOD TIMEGRP "CLK" 4.5 ns HIGH 50%;
+SCHEMATIC END;
+

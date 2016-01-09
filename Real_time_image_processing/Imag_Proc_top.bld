@@ -1,0 +1,59 @@
+Release 14.7 ngdbuild P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: /home/osama/XILINX/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild
+-intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Imag_proc.ucf -p
+xc7a100t-csg324-1 Imag_Proc_top.ngc Imag_Proc_top.ngd
+
+Reading NGO file
+"/home/osama/Documents/FPGA/Osama/Real_time_image_processing/Imag_Proc_top.ngc"
+...
+Loading design module
+"/home/osama/Documents/FPGA/Osama/Real_time_image_processing/imgRom_pixGL8b.ngc"
+...
+Loading design module
+"/home/osama/Documents/FPGA/Osama/Real_time_image_processing/fifo_imag_9b_16700.
+ngc"...
+Loading design module
+"/home/osama/Documents/FPGA/Osama/Real_time_image_processing/Vga_df.ngc"...
+Loading design module
+"/home/osama/Documents/FPGA/Osama/Real_time_image_processing/imgROM_pixRGB_12b.n
+gc"...
+Loading design module
+"/home/osama/Documents/FPGA/Osama/Real_time_image_processing/bt_fifo.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "Imag_proc.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+INFO:ConstraintSystem:178 - TNM 'sys_clk_pin', used in period specification
+   'TS_sys_clk_pin', was traced into MMCME2_ADV instance
+   Inst_PxlClkGen/mmcm_adv_inst. The following new TNM groups and period
+   specifications were generated at the MMCME2_ADV output(s): 
+   CLKOUT0: <TIMESPEC TS_Inst_DataFlow_Display_Inst_VGA_Inst_PxlClkGen_clkout0 =
+   PERIOD "Inst_DataFlow_Display_Inst_VGA_Inst_PxlClkGen_clkout0" TS_sys_clk_pin
+   * 1.08 HIGH 50%>
+
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 493836 kilobytes
+
+Writing NGD file "Imag_Proc_top.ngd" ...
+Total REAL time to NGDBUILD completion:  48 sec
+Total CPU time to NGDBUILD completion:   47 sec
+
+Writing NGDBUILD log file "Imag_Proc_top.bld"...

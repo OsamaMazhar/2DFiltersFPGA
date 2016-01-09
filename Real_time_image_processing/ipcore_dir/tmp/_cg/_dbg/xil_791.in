@@ -1,0 +1,36 @@
+SET_FLAG DEBUG FALSE
+SET_FLAG MODE INTERACTIVE
+SET_FLAG STANDALONE_MODE FALSE
+SET_PREFERENCE devicefamily artix7
+SET_PREFERENCE device xc7a100t
+SET_PREFERENCE speedgrade -1
+SET_PREFERENCE package csg324
+SET_PREFERENCE verilogsim true
+SET_PREFERENCE vhdlsim false
+SET_PREFERENCE simulationfiles Behavioral
+SET_PREFERENCE busformat BusFormatAngleBracketNotRipped
+SET_PREFERENCE outputdirectory /home/osama/Documents/FPGA/Osama/Real_time_image_processing/ipcore_dir/
+SET_PREFERENCE workingdirectory /home/osama/Documents/FPGA/Osama/Real_time_image_processing/ipcore_dir/tmp/
+SET_PREFERENCE subworkingdirectory /home/osama/Documents/FPGA/Osama/Real_time_image_processing/ipcore_dir/tmp/_cg/
+SET_PREFERENCE transientdirectory /home/osama/Documents/FPGA/Osama/Real_time_image_processing/ipcore_dir/tmp/_cg/_dbg/
+SET_PREFERENCE designentry Verilog
+SET_PREFERENCE flowvendor Other
+SET_PREFERENCE addpads false
+SET_PREFERENCE projectname coregen
+SET_PREFERENCE formalverification false
+SET_PREFERENCE asysymbol false
+SET_PREFERENCE implementationfiletype Ngc
+SET_PREFERENCE foundationsym false
+SET_PREFERENCE createndf false
+SET_PREFERENCE removerpms false
+SET_PARAMETER Component_Name d
+SET_CORE_NAME FIFO Generator
+SET_CORE_VERSION 9.3
+SET_CORE_VLNV xilinx.com:ip:fifo_generator:9.3
+SET_CORE_CLASS com.xilinx.ip.fifo_generator_v9_3.fifo_generator_v9_3
+SET_CORE_PATH /home/osama/XILINX/14.7/ISE_DS/ISE/coregen/ip/xilinx/primary/com/xilinx/ip/fifo_generator_v9_3
+SET_CORE_GUIPATH /home/osama/XILINX/14.7/ISE_DS/ISE/coregen/ip/xilinx/primary/com/xilinx/ip/fifo_generator_v9_3/gui/fifo_generator_v9_3.tcl
+SET_CORE_DATASHEET http://www.xilinx.com/cgi-bin/docs/ipdoc?c=fifo_generator;v=v9_3;d=pg057-fifo-generator.pdf
+ADD_CORE_DOCUMENT </home/osama/XILINX/14.7/ISE_DS/ISE/coregen/ip/xilinx/primary/com/xilinx/ip/fifo_generator_v9_3/doc/fifo_generator_v9_3_vinfo.html><fifo_generator_v9_3_vinfo.html>
+ADD_CORE_DOCUMENT </home/osama/XILINX/14.7/ISE_DS/ISE/coregen/ip/xilinx/primary/com/xilinx/ip/fifo_generator_v9_3/doc/fifo_generator_v9_3_readme.txt><fifo_generator_v9_3_readme.txt>
+ADD_CORE_DOCUMENT </home/osama/XILINX/14.7/ISE_DS/ISE/coregen/ip/xilinx/primary/com/xilinx/ip/fifo_generator_v9_3/doc/pg057-fifo-generator.pdf><pg057-fifo-generator.pdf>

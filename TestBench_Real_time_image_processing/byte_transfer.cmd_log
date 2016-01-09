@@ -1,0 +1,22 @@
+xst -intstyle ise -ifn "/home/osama/Documents/FPGA/Osama/TestBench_Real_time_image_processing/byte_transfer.xst" -ofn "/home/osama/Documents/FPGA/Osama/TestBench_Real_time_image_processing/byte_transfer.syr" 
+xst -intstyle ise -ifn "/home/osama/Documents/FPGA/Osama/TestBench_Real_time_image_processing/byte_transfer.xst" -ofn "/home/osama/Documents/FPGA/Osama/TestBench_Real_time_image_processing/byte_transfer.syr" 
+xst -intstyle ise -ifn "/home/osama/Documents/FPGA/Osama/TestBench_Real_time_image_processing/byte_transfer.xst" -ofn "/home/osama/Documents/FPGA/Osama/TestBench_Real_time_image_processing/byte_transfer.syr" 
+xst -intstyle ise -ifn "/home/osama/Documents/FPGA/Osama/TestBench_Real_time_image_processing/byte_transfer.xst" -ofn "/home/osama/Documents/FPGA/Osama/TestBench_Real_time_image_processing/byte_transfer.syr" 
+xst -intstyle ise -ifn "/home/osama/Documents/FPGA/Osama/TestBench_Real_time_image_processing/byte_transfer.xst" -ofn "/home/osama/Documents/FPGA/Osama/TestBench_Real_time_image_processing/byte_transfer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-1 byte_transfer.ngc byte_transfer.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o byte_transfer_map.ncd byte_transfer.ngd byte_transfer.pcf 
+par -w -intstyle ise -ol high -mt off byte_transfer_map.ncd byte_transfer.ncd byte_transfer.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml byte_transfer.twx byte_transfer.ncd -o byte_transfer.twr byte_transfer.pcf 
+xst -intstyle ise -ifn "/home/osama/Documents/FPGA/Osama/TestBench_Real_time_image_processing/byte_transfer.xst" -ofn "/home/osama/Documents/FPGA/Osama/TestBench_Real_time_image_processing/byte_transfer.syr" 
+xst -intstyle ise -ifn "/home/osama/Documents/FPGA/Osama/TestBench_Real_time_image_processing/byte_transfer.xst" -ofn "/home/osama/Documents/FPGA/Osama/TestBench_Real_time_image_processing/byte_transfer.syr" 
+xst -intstyle ise -ifn "/home/osama/Documents/FPGA/Osama/TestBench_Real_time_image_processing/byte_transfer.xst" -ofn "/home/osama/Documents/FPGA/Osama/TestBench_Real_time_image_processing/byte_transfer.syr" 
+xst -intstyle ise -ifn "/home/osama/Documents/FPGA/Osama/TestBench_Real_time_image_processing/byte_transfer.xst" -ofn "/home/osama/Documents/FPGA/Osama/TestBench_Real_time_image_processing/byte_transfer.syr" 
+xst -intstyle ise -ifn "/home/osama/Documents/FPGA/Osama/TestBench_Real_time_image_processing/byte_transfer.xst" -ofn "/home/osama/Documents/FPGA/Osama/TestBench_Real_time_image_processing/byte_transfer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-1 byte_transfer.ngc byte_transfer.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o byte_transfer_map.ncd byte_transfer.ngd byte_transfer.pcf 
+par -w -intstyle ise -ol high -mt off byte_transfer_map.ncd byte_transfer.ncd byte_transfer.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml byte_transfer.twx byte_transfer.ncd -o byte_transfer.twr byte_transfer.pcf 
+xst -intstyle ise -ifn "/home/osama/Documents/FPGA/Osama/TestBench_Real_time_image_processing/byte_transfer.xst" -ofn "/home/osama/Documents/FPGA/Osama/TestBench_Real_time_image_processing/byte_transfer.syr" 
+xst -intstyle ise -ifn "/home/osama/Documents/FPGA/Osama/TestBench_Real_time_image_processing/byte_transfer.xst" -ofn "/home/osama/Documents/FPGA/Osama/TestBench_Real_time_image_processing/byte_transfer.syr" 
+xst -intstyle ise -ifn "/home/osama/Documents/FPGA/Osama/TestBench_Real_time_image_processing/byte_transfer.xst" -ofn "/home/osama/Documents/FPGA/Osama/TestBench_Real_time_image_processing/byte_transfer.syr" 
+xst -intstyle ise -ifn "/home/osama/Documents/FPGA/Osama/TestBench_Real_time_image_processing/byte_transfer.xst" -ofn "/home/osama/Documents/FPGA/Osama/TestBench_Real_time_image_processing/byte_transfer.syr" 

@@ -1,0 +1,43 @@
+Running: /home/osama/XILINX/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/osama/Documents/FPGA/Osama/TestBench_Real_time_image_processing/TB_isim_beh.exe" -prj "/home/osama/Documents/FPGA/Osama/TestBench_Real_time_image_processing/TB_beh.prj" "work.TB" "work.glbl" 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/osama/Documents/FPGA/Osama/TestBench_Real_time_image_processing/ipcore_dir/bt_fifo.v" into library work
+Analyzing Verilog file "/home/osama/XILINX/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Parsing VHDL file "/home/osama/Documents/FPGA/Osama/TestBench_Real_time_image_processing/Flip_Flop_4_11.vhd" into library work
+Parsing VHDL file "/home/osama/Documents/FPGA/Osama/TestBench_Real_time_image_processing/../Real_time_image_processing/FilterTest_Syn.vhd" into library work
+WARNING:HDLCompiler:946 - "/home/osama/Documents/FPGA/Osama/TestBench_Real_time_image_processing/../Real_time_image_processing/FilterTest_Syn.vhd" Line 119: Actual for formal port d is neither a static name nor a globally static expression
+Parsing VHDL file "/home/osama/Documents/FPGA/Osama/TestBench_Real_time_image_processing/byte_transfer_integration.vhd" into library work
+Parsing VHDL file "/home/osama/Documents/FPGA/Osama/TestBench_Real_time_image_processing/TB.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 100992 KB
+Fuse CPU Usage: 1720 ms
+Compiling module glbl
+Compiling module fifo_generator_v9_3_bhv_ver_ss(C...
+Compiling module FIFO_GENERATOR_V9_3_CONV_VER(C_C...
+Compiling module FIFO_GENERATOR_V9_3(C_COMMON_CLO...
+Compiling module bt_fifo
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package textio
+Compiling package std_logic_textio
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling package vl_types
+Compiling architecture behavioral of entity Flip_Flop_4_11 [\Flip_Flop_4_11(8)\]
+Compiling architecture behavioral of entity Flip_Flop_4_11 [\Flip_Flop_4_11(13)\]
+Compiling architecture behavioral of entity FilterTest_Syn [filtertest_syn_default]
+WARNING:HDLCompiler:1242 - "/build/xfndry10/P.20131013/rtf/vhdl/src/ieee/std_logic_arith.vhd" Line 459: Warning: "There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es)."
+Compiling architecture behavioral of entity byte_transfer [byte_transfer_default]
+Compiling architecture behavior of entity tb
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 17 VHDL Units
+Compiled 5 Verilog Units
+Built simulation executable /home/osama/Documents/FPGA/Osama/TestBench_Real_time_image_processing/TB_isim_beh.exe
+Fuse Memory Usage: 424292 KB
+Fuse CPU Usage: 2040 ms
+GCC CPU Usage: 180 ms

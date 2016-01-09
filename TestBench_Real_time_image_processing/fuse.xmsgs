@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="946" delta="unknown" >"/home/osama/Documents/FPGA/Osama/TestBench_Real_time_image_processing/../Real_time_image_processing/FilterTest_Syn.vhd" Line 119: Actual for formal port <arg fmt="%s" index="1">d</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1242" delta="unknown" >"/build/xfndry10/P.20131013/rtf/vhdl/src/ieee/std_logic_arith.vhd" Line 459: <arg fmt="%s" index="1">Warning</arg>: <arg fmt="%s" index="2">&quot;There is an &apos;U&apos;|&apos;X&apos;|&apos;W&apos;|&apos;Z&apos;|&apos;-&apos; in an arithmetic operand, the result will be &apos;X&apos;(es).&quot;</arg>
+</msg>
+
+</messages>
+
