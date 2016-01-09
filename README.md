@@ -1,5 +1,9 @@
 # 2DFiltersFPGA
 
+The youtube video link of this project is as follows:
+
+https://www.youtube.com/watch?v=UeatDM-sp8U
+
 This repository contains details of a project that uses Nexys 4 Artix 7 FPGA to implement 2D Filtering operation on a greyscale image of size 128x128. The report of the project is also uploaded and code is also shared for learning purpose. For burning the code in the hardware open the project file in ISE as in the following location:
 
 2DFiltersFPGA/Real_time_image_processing/Real_time_image_processing.xise
